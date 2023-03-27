@@ -1,0 +1,4 @@
+---
+# tasks for flask
+- import_devops: setup_server.yml
+- import_devops: deploy.yml
