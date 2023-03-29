@@ -3,8 +3,8 @@
   become: true
   become_method: sudo
   vars:
-      repository_url: https://github.com/kevinlondon/flask-hello-world.git
-      repository_path: /home/vagrant/flask-hello-world
+      repository_url: https://github.com/johy9/ansible-flaskwebapp.git
+      repository_path: /home/vagrant/mid-project
 
   tasks:
     - name: Install packages
